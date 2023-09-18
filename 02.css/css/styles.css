@@ -1,0 +1,160 @@
+/* p {
+    color: violet;
+    font-size: 90px;
+} */
+
+/* 08 - Classes */
+
+
+body{
+    padding: 10px;
+    /*background-image: url(../img/city.jpg);
+    color: azure;*/
+}
+
+.paragraph{
+
+    background-color: #000;
+    color:aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: beige;
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* 10 */
+
+h2 {
+    border-bottom: 2px dotted red;
+}
+
+.titulo{
+    border-bottom: 3px solid blue ;
+}
+
+#algum-titulo {
+    border-bottom: 4px solid green ;
+}
+
+/* 11 */
+
+.color-name{
+    color: crimson;
+}
+
+/* 12 - HEX */
+.hex{
+    color: #55a398
+}
+
+.hex-2{
+    color: #00eaff
+}
+
+/* 13 */
+
+.simple-hex{
+    /* color: #333333; */
+    color: #333;
+
+}
+
+.simple-hex-2{
+    /* color: #aa55ff; */
+    color: #a5f;
+}
+
+/* 14 - RGB */
+
+.rgb{
+    color: rgb(255,0,0)
+}
+
+.mixed-rgb{
+    color: rgb(199, 21, 47 )
+}
+
+.rgba{
+    color: rgba(100, 199, 45, 0.3)
+}
+
+
+/* 16 - RGB */
+
+.hsl{ color: hsl(100, 82%, 48%); }
+
+.hsl{ color: hsl(201, 82%, 48%); }
+
+/*17 background*/
+
+.bg {
+
+    background-color: #000;
+    color: yellow;
+
+}
+ 
+.bg-2 {
+
+    background-color: rgb (200, 20, 40);
+    color: #00eaff;
+
+}
+
+
+/*18 opacidade bg*/
+
+.bgopacity{
+
+    background-color: green;
+    opacity: 0.8;
+}
+
+
+.bgopacity-2{
+
+    background-color: #999;
+    color: #000;
+    opacity: 0.8;
+}
+
+
+/*19 RGB com opacidade*/
+
+.rgba-opacity{
+
+    background-color: rgba(90,12,20,0.2);
+    color: #000;
+}
+
+/*20 RGB com opacidade*/
+
+.bg-image{ 
+          padding: 10px;
+          background-image: url(../img/city.jpg);
+          color: azure;
+         }
+
+
+/*21 RGB com opacidade*/
+
+.centered-bg, .not-centered-bg{ 
+    background-image: url(../img/city.jpg);
+    height: 400px; /*Altura de 400 pixel*/
+    width: 400px; /*Largura de 400 pixel*/
+}
+
+/* .not-centered-bg{
+    background-image: url(../img/city.jpg);
+    height: 400px; 
+    width: 400px; 
+} */
+
+.centered-bg{ 
+    background-position: center;
+    background-size: cover;
+}

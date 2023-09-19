@@ -242,3 +242,72 @@ h2 {
     padding: 50px;
     box-sizing: border-box;
 }
+
+/* 27 Bordas */
+
+.border{
+
+    border: 5px solid red;
+    padding: 10px;
+}
+.border2{
+
+    border: 2px solid red;
+    padding: 25px;
+    background-color: #999;
+}
+
+/* 28 Bordas individuais */
+
+.border-esqueda{
+
+    border-left: 3px solid red;
+}
+
+.border-abaixo{
+
+    border-bottom: 5px double red;
+}
+
+
+/* 29 bordas arredondadas */
+
+.arredondadas{
+
+    border: 4px solid blue;
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.arredondadas-2{
+
+    background-color: #000;
+    color: blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* 30 */
+
+.margin{
+
+    margin: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+.margin-2{
+
+    margin-top: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+.margin-3{
+
+    margin-top: 5px 10px 15px 20px;
+    background-color: #222;
+    color: #fff;
+}

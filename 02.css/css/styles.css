@@ -29,7 +29,7 @@ body{
 /* 10 */
 
 h2 {
-    border-bottom: 2px dotted red;
+    /*border-bottom: 2px dotted red;*/
 }
 
 .titulo{
@@ -310,4 +310,133 @@ h2 {
     margin-top: 5px 10px 15px 20px;
     background-color: #222;
     color: #fff;
+}
+
+
+/* 31 */
+
+.box-model{
+
+        margin: 20px;
+        background-color: aquamarine;
+        padding: 15px 25px;
+        /*padding: 15px 25px 15px 25px;*/
+        border: 2px solid red;
+        border-radius: 7px;
+        width: 200px;
+        height: 400px;
+}
+
+
+/* 32 Desafio */
+
+#elementosboxmodel{
+
+    background-color: yellow;
+    margin: 20px;
+    padding: 15px;
+    border-top: 5px groove white;
+    border-bottom: 10px solid blue;
+    border-left: 15px double black;
+    border-right: 20px groove green;
+    outline-color: red;
+    outline-style: groove;
+    outline-width: 15px;
+}
+
+.tituloh2{
+
+    color: rgb(27, 27, 238);
+    background-color: #55a398;
+    padding: 10px 20px;
+    outline-style: double;
+}
+
+
+/* 33 */
+
+.text-aligned{
+
+    text-align: right;
+}
+
+
+.container-center{
+
+    text-align: center;
+    background-color: yellow;
+    width: 300px;
+    border: 2px solid red;
+    margin-left: 200px;
+   
+}
+
+
+/* 34 */
+
+
+.underline{
+
+    text-decoration: underline;
+}
+
+.line-trough{
+
+    text-decoration: line-through;
+}
+
+.remover-underline{
+
+    text-decoration: none;
+    color: red;
+}
+
+
+/* 35 */
+
+.upper{
+
+    text-transform: uppercase;
+}
+
+.lower{
+
+    text-transform: lowercase;
+}
+
+
+/* 36 */
+
+.spacing{
+
+    /*altera o espaçamento do texto*/
+    letter-spacing: 5px;
+}
+
+
+/* 37 */
+
+.serif{
+
+    font-family: Georgia;
+}
+
+.sans-serfi{
+
+    font-family: Helvetica;
+}
+
+.monospace{
+
+    font-family: "Corier New";
+}
+
+.cursive{
+
+    font-family: cursive;
+}
+
+.fantasy{
+
+    font-family: fantasy;
 }

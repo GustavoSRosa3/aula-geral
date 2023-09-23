@@ -7,6 +7,95 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<!-- 1 e 2 Criando e atribuindo formulario --> 
+    <!-- get = obter;
+    post = enviar 
+    method = método q o comando vai usar - get ou post-->
+    <h2>Formulário</h2>
+        <form action="register.php" method="get"> <!-- action = para onde o formulario vai ser enviado -->
+            <div>
+<!-- 03 NAME -->
+                <label>Nome:</label> <!-- o label é o título/rótulo do input -->
+                <input type="text"> <!-- input é reponsável por inserir um tipo de informação, no caso da atividade Type = tipo text = texto -->
+            </div>
+
+<!-- 04 atributo label -->
+            <div>
+                <label for="age">Idade:</label>
+                <input type="text" name="age">
+            </div>
+
+<!-- 06 -->
+            <div>
+                <label for="job">Selecione uma profissão</label>
+                <select name="job">
+                    <option value="programador">Programador</option>
+                    <option value="tester">Tester</option>
+                    <option value="devops">DevOps</option>
+                </select>
+            </div>
+
+<!-- 07 -->
+            <div>                
+                <label for="contract">Você leu o contrato:</label>
+                    <select>
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>                
+            </div>
+
+        <!-- 08 | Lista sem rolagem de seleção-->
+
+        <div>
+
+            <label for="items">Selecione os itens desejados:</label>
+
+            <select name="items" multiple>
+
+                <option value="arroz">Arroz</option>
+
+                <option value="feijao">Feijão</option>
+
+                <option value="cd">CD</option>
+
+                <option value="dvd">DVD</option>
+
+            </select>
+
+        </div>
+
+        <br><hr>
+
+ 
+
+        <!-- 09 | Cria um campo de texto para o usuario digitar-->
+
+ 
+
+        <div>
+
+            <label for="comment">Escreva um comentário</label>
+
+            <textarea name="comment" placeholder="digite aqui !"></textarea>
+
+        </div>
+
+<!-- 05 Envio -->
+            <input type="submit" value="Enviar"> <!-- submit = enviar; value = título do botão ou valor do campo criado -->
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
     
 </body>
 </html>

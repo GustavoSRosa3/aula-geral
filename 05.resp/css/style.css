@@ -1,0 +1,41 @@
+h1{
+
+    color: red;
+}
+
+ 
+
+@media screen and (max-width: 500px) {h1
+    {
+
+        color: blue;
+    }
+}
+
+ 
+
+/* 03 */ 
+
+p{
+    background-color: #789;
+    color: red;
+}
+
+ 
+
+@media screen and (min-width: 800px) {
+    p{
+        background-color: red;
+        color:black
+    }  
+
+}
+
+/*4*/
+
+@media screen and (orientation: landscape) {
+    
+    h3 {
+        display: block;
+    }
+}

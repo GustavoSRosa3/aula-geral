@@ -17,7 +17,7 @@ window.onscroll = () => {
     navbar.classList.remove("active");
 };
 
-let darmode = document.querySelector("#darkmode");
+let darkmode = document.querySelector("#darkmode");
 
 darkmode.onclick = () => {
     if(darkmode.classList.contains("bx-moon")){

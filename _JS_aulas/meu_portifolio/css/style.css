@@ -31,6 +31,25 @@ body.active{
     --bg-color: #0f0c27;
 }
 
+body.active .light-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.5rem;
+    background: red;
+    border-radius: 0.5rem;
+}
+
+body.active .percent-bar{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0.5rem;
+    background: green;
+    border-radius: 0.5rem;
+}
+
 /* TERMO "var": Criada para conectar com o javascript. Invocamos esta variável para o JS. */
 body{  /* "var" recebe "--bg-color"*/
     background: var(--bg-color);
@@ -178,7 +197,8 @@ header.shadow{
 }
  
 .btn:hover{
-    background-color: var(--hover);
+    background-color: #000;
+    color: #fff;
 }
 /* fr - unidade de medida do grid 
 o Grid transforma a div, ou section, ou seja la o que for, em colunas */
@@ -394,7 +414,7 @@ form textarea{
 }
 
 .contact-button:hover{
-    background-color: blueviolet;
+    background-color: black;
     color: #fff;
 }
 

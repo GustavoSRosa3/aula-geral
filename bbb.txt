@@ -1,0 +1,25 @@
+Desafio: Crie uma Single Page Application para uma fan page de um participante fictício do Big Brother Brasil 2024!
+
+Objetivo: Demonstrar suas habilidades em desenvolvimento web full stack, utilizando tecnologias como HTML, CSS e JavaScript para criar uma página interativa e responsiva.
+
+Requisitos:
+
+Fotos do Participante: Implemente um carrossel de imagens com no mínimo 3 e no máximo 10 fotos do participante fictício "Ana Silva". As imagens devem ser exibidas de forma agradável e permitir que o usuário navegue entre elas.
+
+Redes Sociais: Adicione links para as redes sociais do participante fictício, como Instagram, Twitter e Facebook. Certifique-se de que os links estejam funcionais e abram em uma nova guia.
+
+Motivos para Escolher Ana Silva como Vencedora: Crie uma seção para destacar os motivos pelos quais Ana Silva deve ser escolhida como a vencedora do Big Brother Brasil 2024. Utilize HTML e CSS para estilizar o texto e torná-lo visualmente atraente.
+
+Curiosidades sobre Ana Silva: Desenvolva uma seção para exibir curiosidades sobre Ana Silva. Você pode usar dados fictícios, como hobbies, conquistas pessoais, músicas favoritas, entre outros. Utilize JavaScript para exibir e alternar as curiosidades de forma dinâmica.
+
+Design: O design da página deve seguir as cores do programa Big Brother Brasil, que são predominantemente azul, amarelo e branco. Utilize CSS para aplicar essas cores de forma harmoniosa e crie uma interface agradável aos olhos.
+
+Hospedagem: Você deve hospedar sua página em um serviço gratuito, como o GitHub Pages ou Vercel, para que possamos acessá-la facilmente.
+
+Entrega: Compartilhe o link do seu repositório contendo o código-fonte da sua aplicação e o link da página hospedada. Certifique-se de que tudo esteja funcionando corretamente e que a página seja responsiva em diferentes dispositivos.
+
+Este desafio visa avaliar suas habilidades em desenvolvimento web full stack, incluindo o uso de HTML, CSS, JavaScript e hospedagem em serviços gratuitos. Use sua criatividade e aproveite para mostrar todo o seu conhecimento e talento!
+
+Prazo: 19-01 
+
+Boa sorte e divirta-se criando a fan page para a participante fictícia do Big Brother Brasil 2024!

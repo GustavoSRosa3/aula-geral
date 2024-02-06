@@ -115,7 +115,7 @@ drop table tbItens;
 -- Exercício 14
 drop table tbNota_Fiscal;
  
-CREATE TABLE tbNota_Fiscal (
+CREATE TABLE vendas (
 Numero_NF integer primary key,
 ICMS float,
 ValorTotal_NF float

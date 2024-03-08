@@ -1,0 +1,17 @@
+body {
+    background-color: #f2d202;
+    text-align: center;
+    padding: 2em;
+}
+
+body {
+    background-image: url("https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/a249096c7812deb8c3c2c907173f3774.jpe")
+}
+
+h1 {
+    font-size: 3em;
+    color: #020202;
+    background-color: rgb(255, 162, 0);
+    border: 0.5rem solid  black;
+    border-color: #020202;
+}

@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: red;
+    font-size: 10rem;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem; 
+    background-color: brown;  
+
+}
+
+button {
+    background-color: bisque;
+    text-align: center;
+    font-size: 2rem;
+    width: 25rem;
+    height: 40%;
+    padding: 10px;
+    font-weight: bold;
+    font-style: oblique;
+    border-color: rgb(253, 149, 2);
+    box-shadow: inset -5px -5px 5px rgb(251, 180, 1);
+    box-sizing: unset;
+    border-radius: 1.5rem;
+    border-width: 0.5rem;
+
+}
